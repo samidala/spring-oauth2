@@ -14,7 +14,7 @@ public class DataResource {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/patient");
         dataSource.setUsername("root");
-        dataSource.setPassword("Pass$1234");
+        dataSource.setPassword("yourpass");
         return dataSource;
     }
 }
